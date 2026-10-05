@@ -1,0 +1,88 @@
+{
+  "n_queries": 963,
+  "n_candidates": 12179,
+  "summary": {
+    "baseline_prix": {
+      "ndcg@5": {
+        "mean": 0.406,
+        "std": 0.026
+      },
+      "mrr": {
+        "mean": 0.313,
+        "std": 0.024
+      },
+      "p@5": {
+        "mean": 0.254,
+        "std": 0.017
+      }
+    },
+    "baseline_heuristique": {
+      "ndcg@5": {
+        "mean": 0.85,
+        "std": 0.009
+      },
+      "mrr": {
+        "mean": 0.678,
+        "std": 0.032
+      },
+      "p@5": {
+        "mean": 0.542,
+        "std": 0.003
+      }
+    },
+    "logreg_pairwise": {
+      "ndcg@5": {
+        "mean": 0.888,
+        "std": 0.007
+      },
+      "mrr": {
+        "mean": 0.734,
+        "std": 0.02
+      },
+      "p@5": {
+        "mean": 0.564,
+        "std": 0.007
+      }
+    },
+    "gbm_pointwise": {
+      "ndcg@5": {
+        "mean": 0.853,
+        "std": 0.009
+      },
+      "mrr": {
+        "mean": 0.685,
+        "std": 0.03
+      },
+      "p@5": {
+        "mean": 0.542,
+        "std": 0.008
+      }
+    }
+  },
+  "ndcg@5_by_preference": {
+    "baseline_prix": {
+      "balanced": 0.4,
+      "cheap": 0.738,
+      "comfort": 0.191,
+      "fast": 0.308
+    },
+    "baseline_heuristique": {
+      "balanced": 0.831,
+      "cheap": 0.828,
+      "comfort": 0.884,
+      "fast": 0.854
+    },
+    "logreg_pairwise": {
+      "balanced": 0.867,
+      "cheap": 0.895,
+      "comfort": 0.905,
+      "fast": 0.882
+    },
+    "gbm_pointwise": {
+      "balanced": 0.832,
+      "cheap": 0.855,
+      "comfort": 0.87,
+      "fast": 0.855
+    }
+  }
+}

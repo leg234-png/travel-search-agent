@@ -1,0 +1,20 @@
+{"query": "Je cherche un vol Paris Lisbonne le 12 mai 2027, le moins cher possible.", "gold": {"origin": "PAR", "destination": "LIS", "date_from": "2027-05-12", "date_to": "2027-05-12", "preference": "cheap"}}
+{"query": "Vol direct de Lyon à Berlin fin mai, je veux arriver vite.", "gold": {"origin": "LYS", "destination": "BER", "date_from": "2027-05-21", "date_to": "2027-05-31", "max_stops": 0, "preference": "fast"}}
+{"query": "Brest vers Barcelone début mai, budget max 150 euros.", "gold": {"origin": "BES", "destination": "BCN", "date_from": "2027-05-01", "date_to": "2027-05-10", "max_price": 150}}
+{"query": "Toulouse - Rome le 20 avril, départ le matin, avec 3 nuits d'hôtel.", "gold": {"origin": "TLS", "destination": "ROM", "date_from": "2027-04-20", "date_to": "2027-04-20", "time_window": "morning", "nights": 3}}
+{"query": "Un vol confortable Paris Athènes mi-mai, une escale maximum.", "gold": {"origin": "PAR", "destination": "ATH", "date_from": "2027-05-11", "date_to": "2027-05-20", "max_stops": 1, "preference": "comfort"}}
+{"query": "Je veux aller à Amsterdam depuis Bordeaux le 5 avril au soir.", "gold": {"origin": "BOD", "destination": "AMS", "date_from": "2027-04-05", "date_to": "2027-04-05", "time_window": "evening"}}
+{"query": "Nice Londres entre le 10 et le 14 avril, le plus rapide possible.", "gold": {"origin": "NCE", "destination": "LON", "date_from": "2027-04-10", "date_to": "2027-04-14", "preference": "fast"}}
+{"query": "Marseille Dublin le 2 mai, petit budget, hôtel 2 nuits moins de 90 euros la nuit.", "gold": {"origin": "MRS", "destination": "DUB", "date_from": "2027-05-02", "date_to": "2027-05-02", "preference": "cheap", "nights": 2, "hotel_max_price": 90}}
+{"query": "Paris vers Prague le 18 mai l'après-midi, hôtel 4 étoiles minimum pour 2 nuits.", "gold": {"origin": "PAR", "destination": "PRG", "date_from": "2027-05-18", "date_to": "2027-05-18", "time_window": "afternoon", "nights": 2, "hotel_min_stars": 4}}
+{"query": "Vol Madrid Vienne le 25 avril sans escale.", "gold": {"origin": "MAD", "destination": "VIE", "date_from": "2027-04-25", "date_to": "2027-04-25", "max_stops": 0}}
+{"query": "Je pars de Milan pour Bruxelles fin avril.", "gold": {"origin": "MIL", "destination": "BRU", "date_from": "2027-04-21", "date_to": "2027-04-30"}}
+{"query": "Un billet pour Lisbonne le 3 mai.", "gold": {"origin": null, "destination": "LIS", "date_from": "2027-05-03", "date_to": "2027-05-03"}}
+{"query": "Paris Berlin, pas cher.", "gold": {"origin": "PAR", "destination": "BER", "date_from": null, "date_to": null, "preference": "cheap"}}
+{"query": "Barcelone vers Paris le 30 mai, vol du soir, budget 120 €.", "gold": {"origin": "BCN", "destination": "PAR", "date_from": "2027-05-30", "date_to": "2027-05-30", "time_window": "evening", "max_price": 120}}
+{"query": "Lyon Athènes mi-avril, 5 nuits dans un hôtel près du centre.", "gold": {"origin": "LYS", "destination": "ATH", "date_from": "2027-04-11", "date_to": "2027-04-20", "nights": 5, "hotel_near_center": true}}
+{"query": "Depuis Bordeaux, direction Rome, le 8 mai, je préfère une bonne compagnie aérienne.", "gold": {"origin": "BOD", "destination": "ROM", "date_from": "2027-05-08", "date_to": "2027-05-08", "preference": "comfort"}}
+{"query": "Toulouse Londres le 16 avril au matin, direct, peu importe le prix.", "gold": {"origin": "TLS", "destination": "LON", "date_from": "2027-04-16", "date_to": "2027-04-16", "time_window": "morning", "max_stops": 0}}
+{"query": "Amsterdam - Nice entre le 1er et le 3 mai, moins de 200 euros.", "gold": {"origin": "AMS", "destination": "NCE", "date_from": "2027-05-01", "date_to": "2027-05-03", "max_price": 200}}
+{"query": "Brest Madrid le 22 avril, le plus vite possible, hôtel 3 nuits.", "gold": {"origin": "BES", "destination": "MAD", "date_from": "2027-04-22", "date_to": "2027-04-22", "preference": "fast", "nights": 3}}
+{"query": "Je voudrais voyager de Vienne à Paris début avril.", "gold": {"origin": "VIE", "destination": "PAR", "date_from": "2027-04-01", "date_to": "2027-04-10"}}

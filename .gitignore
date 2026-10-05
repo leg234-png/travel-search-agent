@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.pytest_cache/
+data/travel.db
+models/
+.DS_Store
+.claude/
+*.egg-info/
