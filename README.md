@@ -60,6 +60,21 @@ Ce qu'on en retient :
   permettent à un modèle linéaire d'adapter ses poids à chaque type de voyageur.
 - Le modèle final (choisi automatiquement sur le NDCG@5 en CV) est réentraîné sur toutes les requêtes et utilisé par l'agent.
 
+## État des tests
+
+✅ **7 tests unitaires passent avec succès** :
+- Filtres SQL respectent les contraintes de recherche
+- Métriques de ranking (NDCG, MRR, P@k) correctement calculées
+- Ranker appris surpasse le tri par prix (notamment pour `fast` et `comfort`)
+- Chemin complet de l'agent fonctionne end-to-end
+- Garde-fou : hallucinations détectées et signalées
+- Clarification des champs manquants déclenchée correctement
+- Rejet des villes inconnues et cas sans résultat gérés
+
+```bash
+pytest -q  # 7 passed
+```
+
 ## Évaluation de l'extraction par le LLM
 
 `data/parser_eval.jsonl` contient 20 demandes annotées à la main : dates relatives (« fin mai »),
