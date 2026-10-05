@@ -68,7 +68,7 @@ parfaitement extraites, et détection des champs manquants (qui déclenchent une
 
 | Modèle | Requêtes parfaitement extraites | Détection des champs manquants | Latence médiane |
 |---|---|---|---|
-| `gpt-4o-mini` | _à compléter_ | _à compléter_ | _à compléter_ |
+| `gpt-4o-mini` | __ | __ | __ |
 
 > `python -m travel_agent.evaluate_parser`, résultats dans `reports/parser_metrics.json` et erreurs dans `reports/parser_errors.csv`.
 
